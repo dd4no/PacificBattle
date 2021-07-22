@@ -1,24 +1,27 @@
 // PACIFIC BATTLE //
 
 // Global Variables
-const diceBox = document.querySelector('.dicebox')
-const attackBox = document.querySelector('#attack')
-const defenseBox = document.querySelector('#defense')
-const attackDice = []
-const defenseDice = []
+const diceBox = document.querySelector('.diceBox')
+let diceResults = []
+let rolls = Math.ceil(Math.random() * 6)
 
 // Die roller
-function rollDie(box, dice, rolls) {
-    for (let i=0; i<rolls; i++) {
-        const roll = Math.ceil(Math.random()*6)
-        // console.log(roll)        
-        dice.push(roll)
-        // console.log(dice);
-        const die = document.createElement('div')
-        die.classList.add('die')
-        die.innerHTML = roll
-        box.appendChild(die)
-    }
+function rollDie(rolls) {
+  // Clear previous results
+  diceResults.length = 0
+  $('.diceBox').empty()
+  // Create specified number of dice
+  for (let i = 0; i < rolls; i++) {
+    //Generate a random number between 1 and 6
+    const roll = Math.ceil(Math.random() * 6)
+    // Add result to array
+    diceResults.push(roll)
+    // Create a die div
+    const die = document.createElement('div')
+    die.classList.add('die')
+    // Add value
+    die.innerHTML = roll
+    // Show dice
+    diceBox.appendChild(die)
+  }
 }
-rollDie(attackBox, attackDice, 4)
-rollDie(defenseBox, defenseDice, 6)

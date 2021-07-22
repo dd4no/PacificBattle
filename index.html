@@ -2,35 +2,41 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
     <title>Pacific Battle</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <!-- Game Box -->
     <div class="game">
-
-        <!-- Game Board -->
-        <div class="board">
-            <!-- Dice -->
-            <div class="panelBox">
-                <!-- <button class="rollButton" onclick="rollDie(attackBox, attackDice, 5)">ATTACK</button> -->
-                <div id="attack" class="dicebox"></div>
-                <!-- <button class="rollButton" onclick="rollDie(defenseBox, defenseDice, 5)">DEFEND</button> -->
-                <div id="defense" class="dicebox"></div>
-            </div>
+      <!-- Control Panel -->
+      <div class="panelBox">
+        <!-- Dice -->
+        <div id="dieRoller">
+          <button id="rollButton" class="btn" onclick="rollDie(rolls)">
+            ROLL
+          </button>
+          <div class="diceBox"></div>
         </div>
-
+      </div>
+      <!-- Game Board -->
+      <div class="board"></div>
     </div>
 
     <!-- Scripts -->
     <script src="main.js"></script>
     <!-- <script src="dice.js"></script> -->
-
-</body>
+  </body>
 </html>
