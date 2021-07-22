@@ -6,6 +6,8 @@ let diceResults = []
 
 // Die roller
 function rollDie(rolls) {
+  diceResults.length = 0
+  $('.diceBox').empty()
   for (let i = 0; i < rolls; i++) {
     const roll = Math.ceil(Math.random() * 6)
     // console.log(roll)
@@ -16,5 +18,6 @@ function rollDie(rolls) {
     die.innerHTML = roll
     diceBox.appendChild(die)
   }
+  console.log(diceResults)
 }
-rollDie(6)
+// rollDie(6)
