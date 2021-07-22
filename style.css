@@ -7,6 +7,13 @@
   box-sizing: border-box;
 }
 
+.btn {
+  padding: 15px;
+  border: 2px double black;
+  border-radius: 15px;
+  margin: 5px;
+}
+
 .game {
   width: 90%;
   padding: 20px;
@@ -16,6 +23,7 @@
 
 .board {
   width: 90%;
+  height: 300px;
   padding: 20px;
   margin: 0 auto;
   background: blue;
@@ -25,26 +33,30 @@
 .panelBox {
   padding: 20px;
   margin: 0 auto;
-  width: 50%;
+  width: 90%;
+  height: 20%;
   border: 1p solid black;
   background: gray;
 }
 
-.rollButton {
-  position: relative;
-  display: flex;
-  float: left;
+/* Dice */
+
+#dieRoller {
   padding: 5px;
-  border: 2px double gray;
-  border-radius: 20px;
-  margin: 20px;
-  margin-left: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 50%;
 }
 
-/* Dice */
+#rollButton {
+  position: relative;
+  top: 25px;
+  float: left;
+}
+
 .diceBox {
   display: flex;
-  justify-content: left;
   margin: 20px auto;
   /* width: 500px; */
   height: 75px;
@@ -53,7 +65,7 @@
 
 .die {
   display: flex;
-  margin: 10px auto;
+  margin: 10px 10px;
   border-radius: 10%;
   padding-top: 15px;
   justify-content: center;

@@ -6,8 +6,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
     <title>Pacific Battle</title>
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css" />
+    <!-- jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -18,13 +21,18 @@
   <body>
     <!-- Game Box -->
     <div class="game">
+      <!-- Control Panel -->
+      <div class="panelBox">
+        <!-- Dice -->
+        <div id="dieRoller">
+          <button id="rollButton" class="btn" onclick="rollDie(rolls)">
+            ROLL
+          </button>
+          <div class="diceBox"></div>
+        </div>
+      </div>
       <!-- Game Board -->
       <div class="board"></div>
-      <div class="panelBox">
-        <button class="rollButton" onclick="rollDie(5)">ROLL</button>
-        <!-- Dice -->
-        <div class="diceBox"></div>
-      </div>
     </div>
 
     <!-- Scripts -->
