@@ -37,7 +37,7 @@
 }
 
 /* Control Panel */
-.panelBox {
+.panel {
   padding: 20px;
   margin: 0 auto;
   width: 90%;
@@ -107,10 +107,10 @@
   float: right;
 }
 .japan {
-  float: right;
+  /* float: right; */
   background-image: url('./resources/shipSilouetteJapan.png');
 }
 .allied {
-  float: clear;
+  /* float: clear; */
   background-image: url('./resources/shipSilouetteAllied.png');
 }
