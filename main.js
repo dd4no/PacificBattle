@@ -4,6 +4,29 @@
 const diceBox = document.querySelector('.diceBox')
 let diceResults = []
 let rolls = Math.ceil(Math.random() * 6)
+const fleet = [
+  {
+    name: 'Arizona',
+    attack: 4,
+    defense: 4,
+  },
+  {
+    name: 'West Virginia',
+    attack: 5,
+    defense: 5,
+  },
+  {
+    name: 'Yamashiro',
+    attack: 3,
+    defense: 4,
+  },
+  {
+    name: 'Haruna',
+    attack: 2,
+    defense: 3,
+  },
+]
+console.log(fleet)
 
 // Die roller
 function rollDie(rolls) {
