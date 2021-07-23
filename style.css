@@ -107,9 +107,9 @@
 }
 .japan {
   float: right;
-  background-color: red;
+  background-image: url('./resources/shipSilouetteJapan.png');
 }
 .allied {
   float: clear;
-  background-color: blue;
+  background-image: url('./resources/shipSilouetteAllied.png');
 }
