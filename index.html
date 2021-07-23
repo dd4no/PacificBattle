@@ -21,19 +21,32 @@
   <body>
     <!-- Game Box -->
     <div class="game">
+
       <!-- Control Panel -->
       <div class="panel">
+        <div id="japan" class="panelBox">
+          <button class="btn" onclick="attack()">ATTACK</button>
+          <div class="info"></div>
+        </div>
         <!-- Dice -->
         <div id="dieRoller">
           <button id="rollButton" class="btn" onclick="rollDie(rolls)">ROLL</button>
           <div class="diceBox"></div>
         </div>
+        <div id="allied" class="panelBox">
+          <div class="info"></div>
+          <button class="btn" onclick="attack()">ATTACK</button>
+        </div>
       </div>
+      
       <!-- Game Board -->
       <div class="board">
+
         <div class="sea japanSea"></div>
         <div class="sea alliedSea"></div>
+
       </div>
+
     </div>
 
     <!-- Scripts -->

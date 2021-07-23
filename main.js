@@ -45,7 +45,8 @@ const japanFleet = [
 
 let rolls
 let diceResults = []
-let combatShips = []
+let combatShips = [japanFleet[0], alliedFleet[0]]
+console.log(combatShips);
 
 // Die roller
 function rollDie(rolls) {
