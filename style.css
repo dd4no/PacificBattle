@@ -18,20 +18,20 @@
 .game {
   width: 90%;
   padding: 20px;
-  margin: 0 auto;
+  margin: 10px auto;
   background: black;
 }
 
 .board {
   display: flex;
   width: 90%;
-  height: 300px;
+  height: auto;
   padding: 20px;
   margin: 0 auto;
   background: lightblue;
 }
 .sea {
-  display: inline-block;
+  display: flex;
   width: 50%;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .ship {
-  margin: 10px;
+  margin: 30px;
   border: 1px solid black;
   width: 200px;
   height: 200px;
