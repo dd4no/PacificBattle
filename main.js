@@ -113,6 +113,7 @@ function attack(ships) {
   rolls = hits.length
   if (hits.length > 0) {
     results = rollDie(rolls)
+    console.log(results);
     results.map(function (result) {
       ships[1].damage += result
     })
