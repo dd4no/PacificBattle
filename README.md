@@ -28,10 +28,10 @@ Ultimate platform: PS3
 ---
 
 ### Project Wikis
-- [Version Control](https://github.com/dd4no/PacificBattle/blob/main/VersionControl.md)
-- [Best Practices](https://github.com/dd4no/PacificBattle/blob/main/BestPractices.md)
-- [Deployment](https://github.com/dd4no/PacificBattle/blob/main/Deployment.md)
-- [Game Rules](https://github.com/dd4no/PacificBattle/blob/main/Rules.md)
+- [Version Control](https://github.com/dd4no/PacificBattle/blob/main/Docs/VersionControl.md)
+- [Best Practices](https://github.com/dd4no/PacificBattle/blob/main/Docs/BestPractices.md)
+- [Deployment](https://github.com/dd4no/PacificBattle/blob/main/Docs/Deployment.md)
+- [Game Rules](https://github.com/dd4no/PacificBattle/blob/main/Docs/Rules.md)
 
 ---
 
