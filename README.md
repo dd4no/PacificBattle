@@ -31,3 +31,11 @@ Ultimate platform: PS3
 - [Unity Learn](https://learn.unity.com/)
 - [Unity Manual](https://docs.unity3d.com/Manual/index.html)
 - [Unity Editors](https://unity3d.com/unity/qa/lts-releases)
+
+---
+
+### Project Wikis
+- [Version Control](https://github.com/dd4no/PacificBattle/blob/main/VersionControl.md)
+- [Best Practices](https://github.com/dd4no/PacificBattle/blob/main/BestPractices.md)
+- [Deployment](https://github.com/dd4no/PacificBattle/blob/main/Deployment.md)
+
