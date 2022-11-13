@@ -1,4 +1,4 @@
-[Back](https://github.com/dd4no/PacificBattle#readme)
+[Back](PacificBattle#project-wikis)
 
 # Environment Setup and Version Control
 
