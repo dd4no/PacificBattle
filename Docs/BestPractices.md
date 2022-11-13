@@ -1,4 +1,4 @@
-[Back](https://github.com/dd4no/PacificBattle#readme)
+[Back](https://github.com/dd4no/PacificBattle/blob/main/README.md#project-wikis)
 
 # Best Practices and Code Standards
 
