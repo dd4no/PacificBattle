@@ -20,5 +20,14 @@
 - Player vs. Computer will have unlimited time to complete turns,  
   but Player vs. Player will timeout after a period of time to avoid abandonment of games.  
   
+Unity Editor Version: 2021.3.12f1  
+
 Intended platform: Desktop computer  
-Ultimate platform: PS3
+Ultimate platform: PS3  
+
+---
+
+### Resources
+- [Unity Learn](https://learn.unity.com/)
+- [Unity Manual](https://docs.unity3d.com/Manual/index.html)
+- [Unity Editors](https://unity3d.com/unity/qa/lts-releases)
