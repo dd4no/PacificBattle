@@ -8,7 +8,7 @@
 *Player can compete against a computer AI, or another player via a web connection.*
 *Objective is to gain the most "points" over 9 turns by controlling various sea areas and bases with various weighted values.*  
 
-
+---
 
 ### Vision:
 - 3-D Perspective or Isometric view of a rotatable board with ships/units represented by 3-D tiles, or more realistic assets. 
@@ -27,15 +27,17 @@ Ultimate platform: PS3
 
 ---
 
+### Project Wikis
+- [Version Control](https://github.com/dd4no/PacificBattle/blob/main/VersionControl.md)
+- [Best Practices](https://github.com/dd4no/PacificBattle/blob/main/BestPractices.md)
+- [Deployment](https://github.com/dd4no/PacificBattle/blob/main/Deployment.md)
+
+---
+
 ### Resources
 - [Unity Learn](https://learn.unity.com/)
 - [Unity Manual](https://docs.unity3d.com/Manual/index.html)
 - [Unity Editors](https://unity3d.com/unity/qa/lts-releases)
 
----
 
-### Project Wikis
-- [Version Control](https://github.com/dd4no/PacificBattle/blob/main/VersionControl.md)
-- [Best Practices](https://github.com/dd4no/PacificBattle/blob/main/BestPractices.md)
-- [Deployment](https://github.com/dd4no/PacificBattle/blob/main/Deployment.md)
 
