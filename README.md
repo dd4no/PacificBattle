@@ -31,6 +31,7 @@ Ultimate platform: PS3
 - [Version Control](https://github.com/dd4no/PacificBattle/blob/main/VersionControl.md)
 - [Best Practices](https://github.com/dd4no/PacificBattle/blob/main/BestPractices.md)
 - [Deployment](https://github.com/dd4no/PacificBattle/blob/main/Deployment.md)
+- [Game Rules](https://github.com/dd4no/PacificBattle/blob/main/Rules.md)
 
 ---
 
