@@ -1,7 +1,7 @@
 # Pacific Battle!
 
 ## WWII Pacific Campaign Simulation
-### 3D Boardgame
+### Unity 3D Boardgame
  
 *Turn-based strategy board game using unit tiles for military organization and dice-based combat resolution (calculated random results).*
 *Based on real historical conditions, player chooses to play US/Allies or Japan, commanding an actual historic naval fleet.*
